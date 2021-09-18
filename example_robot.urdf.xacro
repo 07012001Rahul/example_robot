@@ -56,9 +56,6 @@
         </visual>
     </link>
 
-
-
-    <!-- <joint name="l3_to_l2" type="fixed"> -->
     <joint name="l3_to_l2" type="revolute">
         <parent link="l3" />
         <child link="l2" />
